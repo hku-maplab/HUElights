@@ -3,7 +3,11 @@
 Here you will find an overview of what you could do with the HUE lights of Phillips (http://www2.meethue.com/en-xx/) 
 This repository is a collection of information and different code snipets for different languages/programs meant as an inspirational source.
 
-NOTE: for some pages on the HUE develoepr portal you will need a developers account which is easy to make
+#### NOTES: 
+
+* For some pages on the HUE develoeper portal you will need a developers account which is easy to make
+* To find the Ip adress of your bridge you can use: https://www.meethue.com/api/nupnp
+* To get started with the HUE follow these steps: http://www.developers.meethue.com/documentation/getting-started
 
 ## Links
 
@@ -12,6 +16,7 @@ NOTE: for some pages on the HUE develoepr portal you will need a developers acco
 * Apps for Hue: http://apps4hue.com/
 * Control HUE with Siri: https://brandonevans.ca/projects/hacking-the-hue
 * Control HUE with Arduino: http://www.makeuseof.com/tag/control-philips-hue-lights-arduino-and-motion-sensor/
+* Control HUE with javascript: https://github.com/bjohnso5/hue-hacking
 
 ## Apps and Code Snippets
 
@@ -56,4 +61,8 @@ I choose Phue as library for Python
 #### makeyHue.py
 
 A python script to use a MakeyMakey to control HUE lights. Using [phue](https://github.com/studioimaginaire/phue) as python library to control the HUE lights and [evdev](https://python-evdev.readthedocs.io/en/latest/) to get teh MakeyMakey input. Heavily inspired by the [MakeyPiano](https://github.com/merose/MakeyPiano) project.
+
+#### HUEtest.py
+
+A small python script demonstrating how to control Hue lights moslty copied form the [phue](https://github.com/studioimaginaire/phue) github page.
 
