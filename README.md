@@ -35,6 +35,8 @@ The message should have 4 parameters:
 * Paramater 2: Saturation int 0 - 254
 * Paramater 3: Brightness int 1 - 254
 
+To test the OSC bridge I have included a small PD patch OSCsender.pd you can use to test the connection.
+
 #### HUEcolorPicker
 
 A small processing sketsch you cna use to control the lights of your Hue lamps. Currently it is hardcoded to the three lamps of the basis set, but you can easily extend this. You set the color of the Hue lmap by moving a little circel over the color you want it to be with the mouse.
